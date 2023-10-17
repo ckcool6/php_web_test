@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/AppService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/BaseController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/ExceptionHandle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/controller/Index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/middleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/provider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/app/service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/cookie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/filesystem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/lang.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/middleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/trace.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/extend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/route/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/think" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Category.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/backend_web_shop/thinkphp/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/backend_web_shop/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/backend_web_shop/vendor/composer" />
+      <path value="$PROJECT_DIR$/backend_web_shop/vendor/topthink/think-installer" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2Wu7saj0jUGfITbfQtKtTUnMq26" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="" />
+      <created>1697132319583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697132319583</updated>
+      <workItem from="1697570823230" duration="318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
