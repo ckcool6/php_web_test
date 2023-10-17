@@ -16,7 +16,7 @@
 <script>
   // 从mockDB.js中导入模拟数据, 方便查看效果
   //import {treeData} from '../../mockDB.js'
-  
+
   export default {
     name: "category",
     data() {

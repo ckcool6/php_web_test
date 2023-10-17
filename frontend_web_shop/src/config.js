@@ -1,4 +1,4 @@
-const baseUrl = 'http://local.leyou.com'
+const baseUrl = 'http://localhost:82/shop/backend_web_shop/public/'
 const config = {
   locale: 'zh-CN', // en-US, zh-CN
   url: baseUrl,

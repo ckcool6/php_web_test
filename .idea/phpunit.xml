@@ -3,7 +3,7 @@
   <component name="PHPUnit">
     <option name="directories">
       <list>
-        <option value="$PROJECT_DIR$/leyou-shop/thinkphp/tests" />
+        <option value="$PROJECT_DIR$/backend_web_shop/thinkphp/tests" />
       </list>
     </option>
   </component>
