@@ -11,10 +11,22 @@ class Category extends Controller
     public function lst(Request $request)
     {
         /**
-         * @ select * from `tb_category` where `parent_id` = 0
+         * @ example:select * from `tb_category` where `parent_id` = 0
          * */
-        $cates = Cates::where('parent_id',$request->pid)->select();
+        $cates = Cates::field('id,name,parent_id as parentId, is_parent as isParent,sort')
+            ->where('parent_id', $request->param('pid'))
+            ->select();
 
-        return json($cates);
+        /**
+         * 跨域cors
+         */
+        $headers = [
+            'Access-Control-Allow-Origin' => '*',
+            'Access-Control-Allow-Methods' => '*',
+            'Access-Control-Allow-Credentials' => 'false',
+            'Access-Control-Allow-Headers' => 'content-type'
+        ];
+
+        return json($cates)->header($headers);
     }
 }

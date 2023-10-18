@@ -16,7 +16,9 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
-Route::get('api/item/category/list','api/Category/lst');
+Route::get('api/item/category/list','api/Category/lst')->allowCrossDomain();
+Route::get('api/item/brand/page', 'api/Brand/page')->allowCrossDomain();
+
 
 return [
 
