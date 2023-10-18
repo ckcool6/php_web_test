@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="冒烟测试">
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="vue太难用">
+      <change afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/BrandForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/api/controller/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/api/controller/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/route/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Brand.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,13 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/backend_web_shop/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,23 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend_web_shop/package.json" />
@@ -91,7 +104,8 @@
       <workItem from="1697588220657" duration="3958000" />
       <workItem from="1697592463008" duration="776000" />
       <workItem from="1697595145823" duration="96000" />
-      <workItem from="1697622912972" duration="1664000" />
+      <workItem from="1697622912972" duration="2242000" />
+      <workItem from="1697657696727" duration="5401000" />
     </task>
     <task id="LOCAL-00001" summary="折腾版本">
       <option name="closed" value="true" />
@@ -125,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697592330849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="vue太难用">
+      <option name="closed" value="true" />
+      <created>1697624741830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697624741830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="折腾版本" />
     <MESSAGE value="冒烟测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="冒烟测试" />
+    <MESSAGE value="vue太难用" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue太难用" />
   </component>
 </project>

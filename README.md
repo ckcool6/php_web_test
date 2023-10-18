@@ -13,4 +13,5 @@
 ## day2
 
 - 跨域cors
-- 
+- vue真难用
+- /todo brand的crud
