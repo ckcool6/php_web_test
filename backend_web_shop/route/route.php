@@ -16,11 +16,18 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
-Route::get('api/item/category/list','api/Category/lst')->allowCrossDomain();
-Route::get('api/item/brand/page', 'api/Brand/page')->allowCrossDomain();
-// 添加品牌
-Route::post('api/item/brand', 'api/Brand/add')->allowCrossDomain();
-Route::post('api/upload', 'api/Brand/upload')->allowCrossDomain();
+Route::get('api/item/category/list', 'api/Category/lst')->allowCrossDomain();
+Route::group('api', function () {
+    // 获取品牌列表
+    Route::get('/item/brand/page', 'api/Brand/page');
+    // 添加品牌
+    Route::post('/item/brand', 'api/Brand/add');
+    // 上传品牌图片
+    Route::post('/upload', 'api/Brand/upload');
+    Route::get('/item/brand/cates/:bid', 'api/Brand/cates');
+    Route::get('/item/brand', 'api/Brand/upd');
+
+})->allowCrossDomain();
 
 
 return [

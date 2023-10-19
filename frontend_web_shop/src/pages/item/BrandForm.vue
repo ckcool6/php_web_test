@@ -26,7 +26,7 @@ export default {
         const {categories, ...params} = this.brand
         params.cids = categories.map(c => c.id).join()
 
-        this.$http.post('/item/brand', params).then(resp => {
+/*        this.$http.post('/item/brand', params).then(resp => {
             const {status, data} = resp
 
             if (status === 201) {
@@ -36,7 +36,18 @@ export default {
               this.$message.error('add fail')
             }
           }
-        )
+        )*/
+        this.$http({
+          method: this.isEdit ? 'put' : 'post', // put表示修改, post表示添加
+          url: '/item/brand',
+          data: params
+        }).then(() => {
+          // 关闭窗口
+          this.$emit("close");
+          this.$message.success("保存成功！");
+        }).catch(() => {
+          this.$message.error("保存失败！");
+        });
       }
     },
     clear() {
@@ -49,6 +60,10 @@ export default {
   props: {
     oldBrand: {
       type: Object
+    },
+    isEdit: {
+      type: Boolean,
+      default: false
     }
   },
   watch: {

@@ -5,6 +5,9 @@ namespace app\api\controller;
 use app\api\model\Brands;
 use think\Controller;
 use think\Db;
+use think\db\exception\DataNotFoundException;
+use think\db\exception\ModelNotFoundException;
+use think\exception\DbException;
 use think\Request;
 
 class Brand extends Controller
@@ -67,5 +70,53 @@ class Brand extends Controller
             return str_replace("\\", "/", $str);
         }
         return 0;
+    }
+
+    /**
+     * @throws DataNotFoundException
+     * @throws ModelNotFoundException
+     * @throws DbException
+     */
+    public function cates(Request $request, $bid)
+    {
+        // 1. 根据brand_id查询中间表, 得到category_id
+        $data = Db::table('tb_category_brand')
+            ->field('category_id')
+            ->where('brand_id', $bid)
+            ->select();
+
+        $cates = [];
+        // 2. 根据category_id, 查询分类表
+        foreach ($data as $v) {
+            $cates[] = Db::table('tb_category')
+                ->field('id, name')
+                ->find($v['category_id']);
+        }
+
+        /**
+         * 跨域cors
+         */
+        $headers = [
+            'Access-Control-Allow-Origin' => '*',
+            'Access-Control-Allow-Methods' => '*',
+            'Access-Control-Allow-Credentials' => 'false',
+            'Access-Control-Allow-Headers' => 'content-type'
+        ];
+
+        return json($cates)->header($headers);
+    }
+
+    public function upd(Request $request)
+    {
+        // 1. 更新品牌表
+        Brands::update($request->param());
+        // 2. 更新中间表
+        // 这里存在一点逻辑小bug, 当更新的分类是新添加时会怎样
+        $cids = $request->param('cids');
+        foreach (explode(',', $cids) as $cid) {
+            Db::table('tb_category_brand')
+                ->where('brand_id', $request->id)
+                ->update(['category_id' => $cid]);
+        }
     }
 }

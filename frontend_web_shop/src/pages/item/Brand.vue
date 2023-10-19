@@ -2,7 +2,7 @@
   <v-card>
     <!-- 卡片的头部 -->
     <v-card-title>
-      <v-btn color="primary" @click="show=true">新增</v-btn>
+      <v-btn color="primary" @click="addBrand">新增</v-btn>
       <v-spacer></v-spacer>
       <v-text-field
         label="请输入关键字搜索"
@@ -43,7 +43,7 @@
       <v-card>
         <!--对话框的标题-->
         <v-toolbar dense dark color="primary">
-          <v-toolbar-title>新增品牌</v-toolbar-title>
+          <v-toolbar-title>{{ isEdit ? '修改' : '添加'}}品牌</v-toolbar-title>
           <v-spacer/>
           <v-btn icon @click="show=false">
             <v-icon>close</v-icon>
@@ -51,7 +51,7 @@
         </v-toolbar>
         <!--对话框的内容，表单-->
         <v-card-text class="px-5">
-          <BrandForm @close="closeWindow" :oldBrand="oldBrand"></BrandForm>
+          <BrandForm @close="closeWindow" :oldBrand="oldBrand" :isEdit="isEdit"></BrandForm>
         </v-card-text>
       </v-card>
     </v-dialog>
@@ -79,20 +79,33 @@ export default {
       totalBrands: 0, // 总记录数
       loading: true, // 显示进度条
       show: false,
-      oldBrand:{},
+      oldBrand: {},
+      isEdit:false
     }
   },
   components: {
     BrandForm
   },
   methods: {
+    addBrand() {
+      this.isEdit=false
+      this.show = true
+      this.oldBrand = null
+    },
     closeWindow() {
       this.show = false
       this.getDataFromServer()
     },
     editBrand(oldBrand) {
-      this.show = true
-      this.oldBrand = oldBrand
+      this.isEdit = true
+      this.$http.get('/item/brand/cates/' + oldBrand.id).then(resp => {
+        // 控制弹窗可见
+        this.show = true
+        // 获取要编辑的brand
+        this.oldBrand = oldBrand
+        // 获取品牌对应的分类信息
+        this.oldBrand.categories = resp.data
+      })
     },
     getDataFromServer() {
       //1. axios.get('url').then(回调函数)

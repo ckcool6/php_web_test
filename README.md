@@ -18,6 +18,9 @@
 - axios的then
 - 子父组件通信 emit
 - 父子组件传数据 props 
-- 这个父子组件通信是真蛋疼
+- 这个父子组件通信是真蛋疼 watch handle
 
 ## day3
+
+- 组件内部的状态
+- 商品的spu和sku
