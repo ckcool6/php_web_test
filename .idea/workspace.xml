@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="组件通信">
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend_web_shop/application/home/view/Index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/GoodsForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/api/controller/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/api/controller/Brand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend_web_shop/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/route/route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Brand.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/BrandForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/BrandForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Goods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Goods.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Composition API Component" />
+        <option value="Vue Options API Component" />
       </list>
     </option>
   </component>
@@ -54,28 +54,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/laragon/www/shop/backend_web_shop/application/home/view/Index",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component",
+      "Vue Options API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend_web_shop/package.json" />
@@ -109,7 +111,9 @@
       <workItem from="1697657696727" duration="6144000" />
       <workItem from="1697664195459" duration="59000" />
       <workItem from="1697678230725" duration="3632000" />
-      <workItem from="1697691310426" duration="3808000" />
+      <workItem from="1697691310426" duration="4063000" />
+      <workItem from="1697695595766" duration="32000" />
+      <workItem from="1697731507552" duration="2176000" />
     </task>
     <task id="LOCAL-00001" summary="折腾版本">
       <option name="closed" value="true" />
@@ -167,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697681870363</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="组件状态">
+      <option name="closed" value="true" />
+      <created>1697695360265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697695360265</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +202,7 @@
     <MESSAGE value="vue太难用" />
     <MESSAGE value="提交表单" />
     <MESSAGE value="组件通信" />
-    <option name="LAST_COMMIT_MESSAGE" value="组件通信" />
+    <MESSAGE value="组件状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="组件状态" />
   </component>
 </project>

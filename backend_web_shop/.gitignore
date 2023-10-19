@@ -6,3 +6,4 @@
 .env
 .DS_Store
 public
+/application/home/view/

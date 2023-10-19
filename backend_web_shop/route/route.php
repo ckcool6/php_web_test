@@ -26,6 +26,8 @@ Route::group('api', function () {
     Route::post('/upload', 'api/Brand/upload');
     Route::get('/item/brand/cates/:bid', 'api/Brand/cates');
     Route::get('/item/brand', 'api/Brand/upd');
+    Route::get('/item/spec/:cid', 'api/Spec/index');
+    Route::get('/item/spu/page', 'api/Goods/page');
 
 })->allowCrossDomain();
 
