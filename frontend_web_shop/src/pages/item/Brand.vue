@@ -31,8 +31,10 @@
         </td>
         <td class="text-xs-center">{{ props.item.letter }}</td>
         <td class="text-xs-center">
-          <v-icon small>edit</v-icon>
-          <v-icon small>delete</v-icon>
+
+          <v-btn color="info" @click="editBrand(props.item)">编辑</v-btn>
+          <v-btn color="error" @click="deleteBrand">删除</v-btn>
+
         </td>
       </template>
     </v-data-table>
@@ -43,11 +45,13 @@
         <v-toolbar dense dark color="primary">
           <v-toolbar-title>新增品牌</v-toolbar-title>
           <v-spacer/>
-          <v-btn icon @click="show=false"><v-icon>close</v-icon></v-btn>
+          <v-btn icon @click="show=false">
+            <v-icon>close</v-icon>
+          </v-btn>
         </v-toolbar>
         <!--对话框的内容，表单-->
         <v-card-text class="px-5">
-          <BrandForm></BrandForm>
+          <BrandForm @close="closeWindow" :oldBrand="oldBrand"></BrandForm>
         </v-card-text>
       </v-card>
     </v-dialog>
@@ -57,6 +61,7 @@
 
 <script>
 import BrandForm from './BrandForm.vue'
+
 export default {
   data() {
     return {
@@ -73,13 +78,22 @@ export default {
       pagination: {}, // 分页排序信息
       totalBrands: 0, // 总记录数
       loading: true, // 显示进度条
-      show: false
+      show: false,
+      oldBrand:{},
     }
   },
-  components:{
+  components: {
     BrandForm
   },
   methods: {
+    closeWindow() {
+      this.show = false
+      this.getDataFromServer()
+    },
+    editBrand(oldBrand) {
+      this.show = true
+      this.oldBrand = oldBrand
+    },
     getDataFromServer() {
       //1. axios.get('url').then(回调函数)
       //2. axios.get('url', {请求参数}).then(回调函数)

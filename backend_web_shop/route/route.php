@@ -18,6 +18,9 @@ Route::get('think', function () {
 Route::get('hello/:name', 'index/hello');
 Route::get('api/item/category/list','api/Category/lst')->allowCrossDomain();
 Route::get('api/item/brand/page', 'api/Brand/page')->allowCrossDomain();
+// 添加品牌
+Route::post('api/item/brand', 'api/Brand/add')->allowCrossDomain();
+Route::post('api/upload', 'api/Brand/upload')->allowCrossDomain();
 
 
 return [

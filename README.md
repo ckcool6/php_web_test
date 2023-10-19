@@ -14,4 +14,10 @@
 
 - 跨域cors
 - vue真难用
-- /todo brand的crud
+- brand的crud
+- axios的then
+- 子父组件通信 emit
+- 父子组件传数据 props 
+- 这个父子组件通信是真蛋疼
+
+## day3

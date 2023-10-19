@@ -30,6 +30,7 @@ export default {
             const {status, data} = resp
 
             if (status === 201) {
+              this.$emit("close")
               this.$message.success("add success")
             } else {
               this.$message.error('add fail')
@@ -43,6 +44,29 @@ export default {
       this.$refs.myBrandForm.reset()
       // 需要手动清空商品分类
       this.brand.categories = []
+    }
+  },
+  props: {
+    oldBrand: {
+      type: Object
+    }
+  },
+  watch: {
+    oldBrand: {
+      handler(val) {
+        if (val) {
+          this.brand = Object.deepCopy(val)
+        } else {
+          // 为空，初始化brand
+          this.brand = {
+            name: '',
+            letter: '',
+            image: '',
+            categories: [],
+          }
+        }
+      },
+      deep: true
     }
   }
 }
