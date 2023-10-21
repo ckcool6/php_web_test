@@ -4,6 +4,7 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/backend_web_shop/thinkphp/tests" />
+        <option value="$PROJECT_DIR$/backend_web_shop/tests" />
       </list>
     </option>
   </component>

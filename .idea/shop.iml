@@ -2,11 +2,11 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/backend_web_shop/application" isTestSource="false" packagePrefix="app\" />
-      <sourceFolder url="file://$MODULE_DIR$/backend_web_shop/thinkphp/library" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/backend_web_shop/thinkphp/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/backend_web_shop/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/backend_web_shop/vendor/topthink/think-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/backend_web_shop/vendor/hao/alidayu" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

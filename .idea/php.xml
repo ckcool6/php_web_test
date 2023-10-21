@@ -14,6 +14,7 @@
     <include_path>
       <path value="$PROJECT_DIR$/backend_web_shop/vendor/composer" />
       <path value="$PROJECT_DIR$/backend_web_shop/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/backend_web_shop/vendor/hao/alidayu" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration">

@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend_web_shop/application/home/view/Index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/GoodsForm.vue" afterDir="false" />
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="数据库里存json">
+      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend_web_shop/application/home/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/route/route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Goods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_web_shop/src/pages/item/Goods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +30,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/backend_web_shop/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +52,7 @@
     <include_path>
       <path value="$PROJECT_DIR$/backend_web_shop/vendor/composer" />
       <path value="$PROJECT_DIR$/backend_web_shop/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/backend_web_shop/vendor/hao/alidayu" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -61,13 +71,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/laragon/www/shop/backend_web_shop/application/home/view/Index",
+    "last_opened_file_path": "D:/laragon/www/shop/backend_web_shop/application/home/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.splitter.proportion": "0.31426132",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -78,6 +89,14 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\shop\backend_web_shop\application\home\view" />
+      <recent name="D:\laragon\www\shop\backend_web_shop\public\static" />
+      <recent name="D:\laragon\www\shop\backend_web_shop\application\home\view\Index" />
+      <recent name="D:\laragon\www\shop\backend_web_shop\public\static\home" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend_web_shop/package.json" />
@@ -113,7 +132,16 @@
       <workItem from="1697678230725" duration="3632000" />
       <workItem from="1697691310426" duration="4063000" />
       <workItem from="1697695595766" duration="32000" />
-      <workItem from="1697731507552" duration="2176000" />
+      <workItem from="1697731507552" duration="2593000" />
+      <workItem from="1697800151036" duration="57000" />
+      <workItem from="1697800217889" duration="1870000" />
+      <workItem from="1697802107729" duration="57000" />
+      <workItem from="1697803436472" duration="153000" />
+      <workItem from="1697846697608" duration="410000" />
+      <workItem from="1697847165815" duration="124000" />
+      <workItem from="1697847316989" duration="34000" />
+      <workItem from="1697848623272" duration="414000" />
+      <workItem from="1697872525431" duration="2692000" />
     </task>
     <task id="LOCAL-00001" summary="折腾版本">
       <option name="closed" value="true" />
@@ -179,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697695360265</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="数据库里存json">
+      <option name="closed" value="true" />
+      <created>1697733985698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697733985698</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +239,7 @@
     <MESSAGE value="提交表单" />
     <MESSAGE value="组件通信" />
     <MESSAGE value="组件状态" />
-    <option name="LAST_COMMIT_MESSAGE" value="组件状态" />
+    <MESSAGE value="数据库里存json" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库里存json" />
   </component>
 </project>
