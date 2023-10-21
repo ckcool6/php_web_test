@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="数据库里存json">
-      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend_web_shop/application/home/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/composer.lock" afterDir="false" />
-    </list>
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="register" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +128,7 @@
       <workItem from="1697847165815" duration="124000" />
       <workItem from="1697847316989" duration="34000" />
       <workItem from="1697848623272" duration="414000" />
-      <workItem from="1697872525431" duration="2692000" />
+      <workItem from="1697872525431" duration="3019000" />
     </task>
     <task id="LOCAL-00001" summary="折腾版本">
       <option name="closed" value="true" />
@@ -215,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697733985698</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="register">
+      <option name="closed" value="true" />
+      <created>1697875548609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697875548609</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +235,7 @@
     <MESSAGE value="组件通信" />
     <MESSAGE value="组件状态" />
     <MESSAGE value="数据库里存json" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库里存json" />
+    <MESSAGE value="register" />
+    <option name="LAST_COMMIT_MESSAGE" value="register" />
   </component>
 </project>
