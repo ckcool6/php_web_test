@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="register" />
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="注册">
+      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Login.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,13 +63,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/laragon/www/shop/backend_web_shop/application/home/view",
+    "last_opened_file_path": "D:/laragon/www/shop/backend_web_shop/application/home/view/Login",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "settings.editor.splitter.proportion": "0.31426132",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -78,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\shop\backend_web_shop\application\home\view\Login" />
       <recent name="D:\laragon\www\shop\backend_web_shop\application\home\view" />
       <recent name="D:\laragon\www\shop\backend_web_shop\public\static" />
       <recent name="D:\laragon\www\shop\backend_web_shop\application\home\view\Index" />
@@ -128,7 +134,14 @@
       <workItem from="1697847165815" duration="124000" />
       <workItem from="1697847316989" duration="34000" />
       <workItem from="1697848623272" duration="414000" />
-      <workItem from="1697872525431" duration="3019000" />
+      <workItem from="1697872525431" duration="3245000" />
+      <workItem from="1697876761035" duration="98000" />
+      <workItem from="1697876952688" duration="196000" />
+      <workItem from="1697877154724" duration="383000" />
+      <workItem from="1697935619765" duration="440000" />
+      <workItem from="1697936126024" duration="26000" />
+      <workItem from="1697936163351" duration="74000" />
+      <workItem from="1697936240743" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="折腾版本">
       <option name="closed" value="true" />
@@ -210,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697875548609</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="注册">
+      <option name="closed" value="true" />
+      <created>1697875701829</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697875701829</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +257,7 @@
     <MESSAGE value="组件状态" />
     <MESSAGE value="数据库里存json" />
     <MESSAGE value="register" />
-    <option name="LAST_COMMIT_MESSAGE" value="register" />
+    <MESSAGE value="注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册" />
   </component>
 </project>

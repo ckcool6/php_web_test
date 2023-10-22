@@ -51,6 +51,42 @@ class Login extends Controller
 
     }
 
+    public function login(Request $request)
+    {
+        if ($request->method() == 'GET') {
+            // 渲染页面
+            return view();
+        } else if ($request->method() == 'POST') {
+            // 处理数据
+            $data = $request->param();
+
+            // 验证密码
+            $user = \think\Db::table('tb_user')
+                ->where('phone', $data['phone'])
+                ->find();
+
+            if ($user) {
+                if ($user['password'] == encrypt_password($data['password'], $user['salt'])) {
+                    session('phone', $data['phone']);
+                    $this->success('登录成功', '/home/index/index');
+                } else {
+                    $this->error('密码不正确', 'home/login/login');
+                }
+            } else {
+                // 手机号不存在
+                $this->error('手机号不存在, 请先注册', '/home/login/register');
+            }
+        }
+    }
+
+    public function logout()
+    {
+        // 清除session（当前作用域）
+        session(null);
+
+        $this->redirect('/home/login/login');
+    }
+
     public function sendCode(Request $request)
     {
         // 读取配置文件

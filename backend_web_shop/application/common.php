@@ -25,3 +25,11 @@ if(!function_exists('encrypt_password')){
         return md5( md5($password) . $salt );
     }
 }
+
+if(!function_exists('encrypt_phone')){
+    //定义手机号安全函数
+    function encrypt_phone($phone) {
+        //13098878677 => 130****8677
+        return substr($phone, 0, 3) . '****' . substr($phone, 7);
+    }
+}
