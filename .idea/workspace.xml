@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="注册">
-      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
+    <list default="true" id="27d187c2-22a7-4a07-b8ad-7dbf36d2f268" name="Changes" comment="login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend_web_shop/application/home/controller/Index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1697935619765" duration="440000" />
       <workItem from="1697936126024" duration="26000" />
       <workItem from="1697936163351" duration="74000" />
-      <workItem from="1697936240743" duration="691000" />
+      <workItem from="1697936240743" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="折腾版本">
       <option name="closed" value="true" />
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697875701829</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="login">
+      <option name="closed" value="true" />
+      <created>1697937272590</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697937272590</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +265,7 @@
     <MESSAGE value="数据库里存json" />
     <MESSAGE value="register" />
     <MESSAGE value="注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册" />
+    <MESSAGE value="login" />
+    <option name="LAST_COMMIT_MESSAGE" value="login" />
   </component>
 </project>
